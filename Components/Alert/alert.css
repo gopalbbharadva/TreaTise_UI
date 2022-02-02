@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('/global.css');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.alert {
+  width: 30%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+}
+
+.alert-link {
+  text-decoration: none;
+}
+.icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.is-info {
+  color: var(--Color_Info_500);
+  background-color: var(--Color_Info_200);
+}
+.is-info .alert-link {
+  text-decoration: underline;
+  color: var(--Color_Info_600);
+}
+
+.is-secondary {
+  color: var(--Secondary_Color);
+  background-color: var(--Secondary_Border_Color);
+}
+.is-secondary .alert-link {
+  text-decoration: underline;
+  color: var(--Color_Secondary_500);
+}
+
+.is-success {
+  color: var(--Color_Success_500);
+  background-color: var(--Color_Success_200);
+}
+.is-success .alert-link {
+  text-decoration: underline;
+  color: var(--Color_Success_500);
+}
+
+.is-danger {
+  color: var(--Color_Danger_500);
+  background-color: var(--Color_Danger_200);
+}
+.is-danger .alert-link {
+  text-decoration: underline;
+  color: var(--Color_Danger_500);
+}
+
+.is-warning {
+  color: var(--Color_Warn_500);
+  background-color: var(--Color_Warn_200);
+}
+.is-warning .alert-link {
+  text-decoration: underline;
+  color: var(--Color_Warn_500);
+}
