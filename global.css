@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* Colors */
+:root {
+  /* || Primary Color */
+  --Primary_Color: #0ea5e9;
+  --Primary_Hover_Color: #0284c7;
+  --Primary_Disabled_Color: #bae6fd;
+
+  /*  Secondary colors */
+  --Secondary_Color: #6b7280;
+  --Secondary_Hover_Color: #4b5563;
+  --Secondary_Border_Color: #e5e7eb;
+
+  /* || Text colors */
+
+  --Color_Info_500: #3b82f6;
+  --Color_Info_600: #2563eb;
+  --Color_Info_200: #bae6fd;
+
+  --Color_Success_500: #22c55e;
+  --Color_Success_600: #16a34a;
+  --Color_Success_200: #bbf7d0;
+
+  --Color_Danger_500: #ef4444;
+  --Color_Danger_600: #dc2626;
+  --Color_Danger_200: #fecaca;
+
+  --Color_Warn_500: #eab308;
+  --Color_Warn_600: #ca8a04;
+  --Color_Warn_200: #fef08a;
+
+  --Color_Pink_500: #ec4899;
+
+  --Color_Purple_500: #a855f7;
+
+  --Color_Black: #111827;
+  --Color_White: #f9fafb;
+  --Color_Snippet: #002240;
+
+  /* Font-family */
+  --Lato_Font: "Lato", sans-serif;
+  --Montserrat_Font: "Montserrat", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* || Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: var(--Color_Black);
+}
+
+/* || Imagenary */
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: contain;
+}
+
+/* || Components */
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* || List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
