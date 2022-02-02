@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("/global.css");
 
 body {
@@ -8,15 +7,9 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-i {
+.im {
   margin-right: 5px;
 }
-
-small {
-  color: var(--Secondary_Color);
-  font-weight: bold;
-}
-
 .card {
   border: 1px solid var(--Secondary_Border_Color);
   position: relative;
@@ -139,6 +132,10 @@ small {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--Color_Danger_500);
+}
+.text-overlay{
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .description-text {
