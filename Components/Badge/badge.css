@@ -44,30 +44,30 @@
   border-radius: 50%;
 }
 .badge-lg {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   bottom: 8%;
   right: 8%;
   background-color: var(--Color_Success_500);
 }
 .badge-md {
-  width: 12px;
-  height: 12px;
+  width: 1rem;
+  height: 1rem;
   bottom: 8%;
   right: 8%;
   background-color: var(--Color_Warn_500);
 }
 .badge-sm {
-  width: 10px;
-  height: 10px;
+  width: .5rem;
+  height: .5rem;
   bottom: 6%;
   right: 6%;
   background-color: var(--Color_Danger_500);
 }
 .badge-lt {
-  width: 5px;
-  height: 5px;
-  bottom: 8%;
+  width: .2rem;
+  height: .2rem;
+  bottom: 10%;
   right: 3%;
   background-color: var(--Color_Black);
 }
