@@ -18,7 +18,7 @@
 
   --Color_Info_500: #3b82f6;
   --Color_Info_600: #2563eb;
-  --Color_Info_200: #e5e7eb;
+  --Color_Info_200: #bae6fd;
 
   --Color_Success_500: #22c55e;
   --Color_Success_600: #16a34a;
@@ -38,8 +38,12 @@
 
   --Color_Black: #111827;
   --Color_White: #f9fafb;
-}
+  --Color_Snippet: #002240;
 
+  /* Font-family */
+  --Lato_Font: "Lato", sans-serif;
+  --Montserrat_Font: "Montserrat", sans-serif;
+}
 body {
   padding: 0;
   margin: 0;
