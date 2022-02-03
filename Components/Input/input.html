@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Textbox Component</title>
+  </head>
+  <body>
+    <!-- Simple text boxes -->
+    <p>Simple textboxes</p>
+    <input
+      class="input is-primary"
+      type="text"
+      placeholder="Simple primary textbox"
+    />
+
+    <!-- || Disabled textbox -->
+    <p>Disabled textbox</p>
+    <input
+      class="input is-disabled"
+      type="text"
+      placeholder="Disabled Text Box"
+      disabled
+    />
+
+    <!-- || Read only textbox -->
+    <p>Readonly textbox</p>
+    <input
+      class="input is-read-only"
+      type="text"
+      placeholder="Read Only Text"
+      value="Read only text-box"
+      disabled
+    />
+
+    <!-- || Phone number input  -->
+    <p>Phone number textbox</p>
+    <div class="input-icon-container is-success">
+      <i class="fas fa-phone phone-icon"></i>
+      <input
+        type="tel"
+        class="input phone-input"
+        maxlength="10"
+        placeholder="Phone"
+      />
+    </div>
+
+    <!-- || Validation textbox -->
+    <p>Validation textbox</p>
+    <div class="validation-success">
+      <div class="input-icon-container is-success">
+        <i class="fas fa-user pre-icon icon-user"></i>
+        <input
+          class="input username-input"
+          type="text"
+          placeholder="Username:"
+        />
+        <i class="fas fa-check-circle icon-success"></i>
+      </div>
+      <span class="message success-message">Hurray! valid username</span>
+    </div>
+
+    <div class="validation-error">
+      <div class="input-icon-container is-success">
+        <i class="fas fa-lock pre-icon icon-password"></i>
+        <input
+          class="input password-input"
+          type="password"
+          placeholder="Password:"
+        />
+        <i class="fas fa-times-circle icon-error"></i>
+      </div>
+      <span class="message error-message">Oops! wrong password</span>
+    </div>
+  </body>
+</html>

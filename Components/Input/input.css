@@ -1,0 +1,114 @@
+@import url("/global.css");
+::placeholder {
+  opacity: 0.4;
+}
+.simple-tb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input {
+  border: none;
+  width: 20%;
+  padding: 10px 8px;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.is-primary {
+  border: 1px solid var(--Primary_Color);
+}
+.is-primary:focus {
+  outline: none;
+  border: 1px solid var(--Primary_Color);
+  box-shadow: 0 0 3px var(--Primary_Color);
+}
+.is-secondary {
+  border: 1px solid var(--Secondary_Color);
+}
+.is-secondary:focus {
+  outline: none;
+  border: 1px solid var(--Secondary_Color);
+  box-shadow: 0 0 3px var(--Secondary_Color);
+}
+.is-success {
+  border: 1px solid var(--Color_Success_500);
+}
+.is-success:focus {
+  outline: none;
+  border: 1px solid var(--Color_Success_500);
+  box-shadow: 0 0 3px var(--Color_Success_500);
+}
+.is-danger {
+  border: 1px solid var(--Color_Danger_500);
+}
+.is-danger:focus {
+  outline: none;
+  border: 1px solid var(--Color_Danger_500);
+  box-shadow: 0 0 3px var(--Color_Danger_500);
+}
+.is-disabled {
+  cursor: not-allowed;
+  color: var(--Color_Black);
+  background-color: var(--Primary_Disabled_Color);
+}
+.is-read-only {
+  border: 1px solid var(--Color_Black);
+}
+
+.input-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 20%;
+  padding: 0 10px;
+  margin: 10px;
+}
+.phone-icon {
+  color: var(--Color_Success_500);
+}
+.phone-input,
+.username-input,
+.password-input {
+  width: 90%;
+  margin: 0;
+  outline: none;
+}
+.phone-input:focus,
+.username-input:focus,
+.password-input:focus {
+  border: 0;
+}
+
+.validation-success,
+.validation-error {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.icon-success {
+  color: var(--Color_Success_500);
+}
+.icon-error {
+  color: var(--Color_Danger_500);
+}
+.icon-user {
+  color: var(--Color_Black);
+}
+.icon-password {
+  color: var(--Color_Black);
+}
+.message {
+  font-size: 13px;
+  position: absolute;
+  left: 1%;
+  top: 100%;
+}
+.success-message {
+  color: var(--Color_Success_500);
+}
+.error-message {
+  color: var(--Color_Danger_500);
+}
