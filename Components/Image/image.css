@@ -1,0 +1,24 @@
+@import url("/global.css");
+
+.image-container {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--Color_Secondary_100);
+}
+.image-responsive {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+}
+.image-circle {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.image-rounded-corner {
+  border-radius: 5px;
+}
