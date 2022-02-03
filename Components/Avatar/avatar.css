@@ -1,0 +1,55 @@
+@import url("/global.css");
+
+.avatar-container {
+  border: 1px solid var(--Color_Black);
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+.avatar {
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.circle-radius {
+  border-radius: 50%;
+}
+
+.square-radius {
+  border-radius: 5px;
+}
+
+.avatar-lg {
+  height: 8rem;
+  width: 8rem;
+}
+.avatar-md {
+  height: 5rem;
+  width: 5rem;
+}
+.avatar-sm {
+  height: 3rem;
+  width: 3rem;
+}
+.avatar-container div {
+  margin-right: 1rem;
+}
+
+.avatar-letter {
+  border: 1px solid var(--Color_Black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Primary_Color);
+}
+.first {
+  font-size: 5rem;
+}
+.second {
+  font-size: 3rem;
+}
+.third {
+  font-size: 1rem;
+}
