@@ -1,0 +1,63 @@
+@import url("/reusedoc.css");
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+}
+.highlight {
+  color: var(--Primary_Color);
+}
+/* \\ Main container */
+.main-container {
+  display: flex;
+}
+/* || Navigation bar*/
+.navigation-bar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid var(--Primary_Disabled_Color);
+}
+.nav-brand {
+  cursor: pointer;
+  color: var(--Primary_Color);
+  font-size: 1.5rem;
+  font-family: "Righteous", cursive;
+}
+.nav-item {
+  cursor: pointer;
+  color: var(--Primary_Color);
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  margin-right: 1rem;
+}
+.nav-item a {
+  color: var(--Primary_Color);
+}
+.nav-item a:hover {
+  color: var(--Secondary_Color);
+}
+
+/* Sidebar css */
+.sidebar-component {
+  padding: 1rem 0;
+  max-width: 250px;
+  width: 100%;
+  border-right: 2px solid var(--Primary_Disabled_Color);
+}
+.sidebar-section-heading {
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  color: var(--Primary_Color);
+}
+
+.component-item {
+  cursor: pointer;
+  display: block;
+  padding: 10px 4rem;
+}
+.component-item:hover {
+  background-color: var(--Primary_Disabled_Color);
+}
+

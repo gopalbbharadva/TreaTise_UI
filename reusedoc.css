@@ -1,0 +1,34 @@
+@import url("/global.css");
+
+.description-area {
+  border-bottom: 2px solid var(--Primary_Disabled_Color);
+  padding: 2rem;
+}
+.category {
+  margin: 2rem;
+}
+.end-border {
+  border-bottom: 2px solid var(--Primary_Disabled_Color);
+}
+.main-header-title {
+  color: var(--Primary_Color);
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.main-header-description {
+  opacity: 0.8;
+  font-family: var(--Lato_Font);
+  font-size: 1.25rem;
+}
+.cat-header-title {
+  font-weight: 400;
+  color: var(--Primary_Color);
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.cat-header-description {
+  font-family: var(--Lato_Font);
+  font-size: 1.25rem;
+  opacity: 0.8;
+}
