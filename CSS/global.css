@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* || Css Component files */
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Badge/badge.css");
+@import url("/Components/Button/buttons.css");
+@import url("/Components/Input/input.css");
+@import url("/Components/Image/image.css");
+@import url("/CSS/reusedoc.css");
+@import url("/CSS/snippet.css");
 /* Colors */
 :root {
   /* || Primary Color */
