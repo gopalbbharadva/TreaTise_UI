@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url('/global.css');
-
-* {
-  font-family: "Inter", sans-serif;
-}
 .alert {
   width: 30%;
   margin: 1rem;
@@ -63,4 +57,19 @@
 .is-warning .alert-link {
   text-decoration: underline;
   color: var(--Color_Warn_500);
+}
+
+.alert-container {
+  padding: 1rem 0;
+  height: calc(100vh - 68px);
+  overflow: scroll;
+  width: 100%;
+}
+.simple-alert,
+.link-alert,
+.icon-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
