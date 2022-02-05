@@ -56,15 +56,15 @@
   background-color: var(--Color_Warn_500);
 }
 .badge-sm {
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
   bottom: 6%;
   right: 6%;
   background-color: var(--Color_Danger_500);
 }
 .badge-lt {
-  width: .2rem;
-  height: .2rem;
+  width: 0.2rem;
+  height: 0.2rem;
   bottom: 10%;
   right: 3%;
   background-color: var(--Color_Black);
@@ -72,6 +72,7 @@
 
 /* Icon badge */
 .icon {
+  color: var(--Primary_Color);
   font-size: 3rem;
   cursor: pointer;
 }

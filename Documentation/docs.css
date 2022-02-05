@@ -11,6 +11,13 @@ body {
 .main-container {
   display: flex;
 }
+.main-component-container {
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  height: calc(100vh - 68px);
+  overflow: scroll;
+  width: 100%;
+}
 /* || Navigation bar*/
 .navigation-bar {
   padding: 5px;
@@ -56,6 +63,9 @@ body {
   cursor: pointer;
   display: block;
   padding: 10px 4rem;
+}
+.component-item a {
+  padding-right: 9rem;
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
