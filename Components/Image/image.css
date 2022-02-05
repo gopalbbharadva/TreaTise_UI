@@ -10,13 +10,15 @@
   border: 2px solid var(--Color_Secondary_100);
 }
 .image-responsive {
-  width: 600px;
   max-width: 100%;
   height: auto;
 }
-.image-circle {
-  max-width: 100%;
+.image {
+  max-width: 400px;
+  width: 100%;
   height: auto;
+}
+.image-circle {
   border-radius: 50%;
 }
 .image-rounded-corner {
