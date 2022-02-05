@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Documentation</title>
+  </head>
+  <body>
+    <!-- || Navigation bar -->
+    <nav class="navigation-bar">
+      <a href="/index.html" class="nav-brand">TreaTise</a>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Docs</a></li>
+        <li class="nav-item">
+          <span
+            ><a href="#"><i class="fab fa-github"></i></a
+          ></span>
+        </li>
+        <li class="nav-item">
+          <span
+            ><a href="#"><i class="fab fa-twitter"></i></a
+          ></span>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- || Sidebar component list -->
+    <main class="main-container">
+      <aside class="sidebar-component">
+        <h3 class="sidebar-section-heading">Getting started</h3>
+        <ul class="sidebar-component-list">
+          <li class="component-item">
+            <a href="#" class="is-introduction">Introduction</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-installation">Installation</a>
+          </li>
+        </ul>
+        <h3 class="sidebar-section-heading">Components</h3>
+        <ul class="sidebar-component-list">
+          <li class="component-item">
+            <a href="#" class="is-alert">Alert</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-avatar">Avatar</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-badge">Badge</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-button">Button</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-card">Card</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-input">Input</a>
+          </li>
+          <li class="component-item">
+            <a href="#" class="is-image">Image</a>
+          </li>
+        </ul>
+      </aside>
+
+      <section class="main-component-container">
+        <div class="alerts">
+          <div class="description-area">
+            <h1 class="alert-header main-header-title">Alert</h1>
+            <p class="alert-description main-header-description">
+              Alert lets you monitor any website (or specific parts of it) you
+              wish in order to be notified when it's updated.
+            </p>
+          </div>
+
+          <!-- || Simple-alert start -->
+          <div class="end-border">
+            <div class="category cat1-header">
+              <h2 class="cat-title cat-header-title">Simple alerts</h2>
+              <p class="cat-description cat-header-description">
+                These alerts are alerts that has specific colors for specfic
+                event.
+              </p>
+            </div>
+            <!-- || UI start-->
+            <div class="output-container">
+              <div class="alert is-alert-info">
+                <p>Simple information alert - check it out</p>
+              </div>
+              <div class="alert is-alert-secondary">
+                <p>Simple secondary alert - check it out</p>
+              </div>
+              <div class="alert is-alert-success">
+                <p>Simple success alert - check it out</p>
+              </div>
+              <div class="alert is-alert-danger">
+                <p>Simple danger alert - check it out</p>
+              </div>
+              <div class="alert is-alert-warning">
+                <p>Simple warning alert - check it out</p>
+              </div>
+            </div>
+            <!-- || UI end -->
+
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simple-alert%2520exp-border%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520information%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520secondary%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520success%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520danger%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520warning%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- || Alerts with links start-->
+          <div class="end-border">
+            <div class="category cat2-header">
+              <h1 class="cat-title cat-header-title">Alerts with link</h1>
+              <p class="cat-description cat-header-description">
+                Alerts that give event message with link for that what to do
+                next.
+              </p>
+            </div>
+            <!-- || UI start-->
+            <div class="output-container">
+              <div class="alert is-alert-info">
+                <p>
+                  Information alert with link -
+                  <a href="#" class="alert-link">check it out</a>
+                </p>
+              </div>
+              <div class="alert is-alert-secondary">
+                <p>
+                  Secondary alert with link -
+                  <a href="#" class="alert-link">check it out</a>
+                </p>
+              </div>
+              <div class="alert is-alert-success">
+                <p>
+                  Success alert with link -
+                  <a href="#" class="alert-link">check it out</a>
+                </p>
+              </div>
+              <div class="alert is-alert-danger">
+                <p>
+                  Danger alert with link -
+                  <a href="#" class="alert-link">check it out</a>
+                </p>
+              </div>
+              <div class="alert is-alert-warning">
+                <p>
+                  Warning alert with link -
+                  <a href="#" class="alert-link">check it out</a>
+                </p>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=sharp&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522link-alert%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAlerts%2520with%2520links%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Information%2520alert%2520with%2520link%2520-%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Echeck%2520it%2520out%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Secondary%2520alert%2520with%2520link%2520-%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Echeck%2520it%2520out%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Success%2520alert%2520with%2520link%2520-%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Echeck%2520it%2520out%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Danger%2520alert%2520with%2520link%2520-%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Echeck%2520it%2520out%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Warning%2520alert%2520with%2520link%2520-%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Echeck%2520it%2520out%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- || Alerts with icons start -->
+          <div class="end-border">
+            <div class="category cat2-header">
+              <h1 class="cat-title cat-header-title">Alerts with icons</h1>
+              <p class="cat-description cat-header-description">
+                Icons in alert message represents the event analogy for alert.
+              </p>
+            </div>
+            <!-- || UI start-->
+            <div class="output-container">
+              <div class="alert is-alert-info">
+                <span class="alert-icon">
+                  <i class="fas fa-question-circle"></i>
+                </span>
+                <p>Simple information alert - check it out</p>
+              </div>
+              <div class="alert is-alert-success">
+                <span class="alert-icon">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                <p>Simple success alert - check it out</p>
+              </div>
+              <div class="alert is-alert-danger">
+                <span class="alert-icon">
+                  <i class="fas fa-times-circle"></i>
+                </span>
+                <p>Simple danger alert - check it out</p>
+              </div>
+              <div class="alert is-alert-warning">
+                <span class="alert-icon">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                <p>Simple warning alert - check it out</p>
+              </div>
+            </div>
+            <!-- || UI end -->
+
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Icon-alert%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAlerts%2520with%2520icons%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-question-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520information%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520success%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520danger%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520is-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ESimple%2520warning%2520alert%2520-%2520check%2520it%2520out%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <!-- || Alerts with icons end -->
+      </section>
+    </main>
+  </body>
+</html>

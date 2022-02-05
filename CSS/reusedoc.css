@@ -4,6 +4,16 @@
   border-bottom: 2px solid var(--Primary_Disabled_Color);
   padding: 2rem;
 }
+.output-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 0 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--Primary_Disabled_Color);
+}
 .category {
   margin: 2rem;
 }

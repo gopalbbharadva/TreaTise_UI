@@ -6,20 +6,11 @@
   display: flex;
   align-items: center;
 }
-.alert-container {
+.main-component-container {
   padding: 1rem 0;
   height: calc(100vh - 68px);
   overflow: scroll;
   width: 100%;
-}
-.simple-alert,
-.link-alert,
-.icon-alert {
-  flex-wrap: wrap;
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .alert-link {
