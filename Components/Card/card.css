@@ -1,12 +1,3 @@
-@import url("/global.css");
-
-body {
-  font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
 .im {
   margin-right: 5px;
 }
