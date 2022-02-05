@@ -1,26 +1,11 @@
-@import url("/global.css");
-
-.avatar-container {
-  border: 1px solid var(--Color_Black);
-  display: flex;
-  padding: 1rem;
-  align-items: flex-end;
-  justify-content: center;
-}
-.avatar {
-  cursor: pointer;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
 .circle-radius {
   border-radius: 50%;
+  margin: 1rem 1rem 1rem 0;
 }
-
 .square-radius {
   border-radius: 5px;
+  margin: 1rem 1rem 1rem 0;
 }
-
 .avatar-lg {
   height: 8rem;
   width: 8rem;
@@ -44,12 +29,12 @@
   align-items: center;
   color: var(--Primary_Color);
 }
-.first {
+.lg-font-size {
   font-size: 5rem;
 }
-.second {
+.md-font-size {
   font-size: 3rem;
 }
-.third {
+.sm-font-size {
   font-size: 1rem;
 }

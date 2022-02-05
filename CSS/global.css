@@ -82,7 +82,7 @@ a {
 img {
   max-inline-size: 100%;
   block-size: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* || Components */
