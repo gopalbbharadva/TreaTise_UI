@@ -1,23 +1,13 @@
-@import url("/global.css");
-
 .btn {
   font-family: "Inter", sans-serif;
   display: inline-block;
   cursor: pointer;
   border: none;
   padding: 8px 12px;
-  margin-right: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
   font-size: 1rem;
   color: var(--Color_White);
   text-decoration: none;
-}
-
-.link-main,
-.icon-main,
-.float-button-main,
-.solid-main,
-.outlined-main {
-  margin-top: 2rem;
 }
 .is-primary,
 .is-solid {
@@ -39,16 +29,12 @@
 .is-icon {
   background: transparent;
   color: var(--Primary_Color);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .is-icon-text {
   color: var(--Color_White);
   background-color: var(--Primary_Color);
 }
-.is-icon-text i {
-  margin-right: 5px;
-}
-
 .float-button-main {
   display: flex;
   flex-direction: column;
@@ -82,40 +68,40 @@
   background-color: var(--Color_Purple_500);
 }
 
-.is-success {
+.is-btn-success {
   background-color: var(--Color_Success_500);
   border: 1px solid var(--Color_Success_500);
 }
-.is-secondary {
+.is-btn-secondary {
   background-color: var(--Secondary_Color);
   border: 1px solid var(--Secondary_Color);
 }
-.is-danger {
+.is-btn-danger {
   background-color: var(--Color_Danger_500);
   border: 1px solid var(--Color_Danger_500);
 }
-.is-warning {
+.is-btn-warning {
   background-color: var(--Color_Warn_500);
   border: 1px solid var(--Color_Warn_500);
 }
-.is-info {
+.is-btn-info {
   background-color: var(--Color_Info_500);
   border: 1px solid var(--Color_Info_500);
 }
 
-.is-success:hover {
+.is-btn-success:hover {
   background-color: var(--Color_Success_600);
 }
-.is-secondary:hover {
+.is-btn-secondary:hover {
   background-color: var(--Secondary_Hover_Color);
 }
-.is-danger:hover {
+.is-btn-danger:hover {
   background-color: var(--Color_Danger_600);
 }
-.is-warning:hover {
+.is-btn-warning:hover {
   background-color: var(--Color_Warn_600);
 }
-.is-info:hover {
+.is-btn-info:hover {
   background-color: var(--Color_Info_600);
 }
 
