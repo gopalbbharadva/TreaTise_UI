@@ -1,0 +1,65 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--Primary_Disabled_Color);
+  padding: 0 1rem;
+}
+.nav-left-section,
+.nav-right-section {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.hamburger-icon {
+  display: none;
+  font-size: 1.5rem;
+}
+
+.search-input {
+  border-radius: 3px;
+  font-size: 1rem;
+  border: none;
+  padding: 5px 1rem;
+  background-color: var(--Primary_Color_100);
+  border-radius: 5px;
+}
+.search-input:focus {
+  outline: 0;
+}
+.primary-list,
+.secondary-list {
+  list-style-type: none;
+}
+.primary-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.secondary-list {
+  display: flex;
+  gap: 20px;
+}
+.secondary-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondary-list i {
+  font-size: 1.25rem;
+  color: var(--Primary_Color);
+}
+
+@media screen and (max-width: 930px) {
+  .search-input,
+  .nav-left-section {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+}
