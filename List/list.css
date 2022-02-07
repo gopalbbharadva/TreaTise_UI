@@ -1,0 +1,52 @@
+.spaced-list-square {
+  list-style-type: square;
+  line-height: 2rem;
+}
+
+.spaced-list-disc {
+  list-style-type: disc;
+  line-height: 2rem;
+}
+
+.spaced-list-number {
+  list-style-type: num;
+  line-height: 2rem;
+}
+.spaced-list-letter {
+  list-style-type: upper-alpha;
+  line-height: 2rem;
+}
+
+.stacked-list {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  width: fit-content;
+  list-style-type: none;
+  border: 2px solid var(--Primary_Color);
+}
+.stacked-list li {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.stacked-list span {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.n1 {
+  color: var(--Color_Success_600);
+  background-color: var(--Secondary_Border_Color);
+}
+.n2 {
+  color: var(--Color_Warn_600);
+  background-color: var(--Secondary_Border_Color);
+}
+.n3 {
+  color: var(--Color_Danger_600);
+  background-color: var(--Secondary_Border_Color);
+}
