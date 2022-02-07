@@ -1,0 +1,18 @@
+:root {
+  --grey_color: #6b7280;
+}
+.heading{
+    font-size: 3rem;
+}
+.gray-text {
+  color: var(--grey_color);
+}
+.aligns-start {
+  text-align: start;
+}
+.align-center {
+  text-align: center;
+}
+.align-end {
+  text-align: end;
+}
