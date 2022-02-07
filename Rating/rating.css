@@ -1,0 +1,30 @@
+.rating {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin: 1rem;
+  color: var(--Color_White);
+  padding: 4px;
+}
+.high-rating {
+  background-color: var(--Color_Success_600);
+}
+.average-rating {
+  background-color: var(--Color_Warn_600);
+}
+.low-rating {
+  background-color: var(--Color_Danger_600);
+}
+.rating i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.fill {
+  color: var(--Color_Warn_500);
+}
+.empty {
+  color: var(--Secondary_Border_Color);
+}

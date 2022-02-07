@@ -1,0 +1,27 @@
+.toast {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+  box-shadow: RGBA(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 30%;
+  padding: 1.5rem 1rem;
+  position: relative;
+  color: var(--Color_White);
+}
+.toast-success {
+  background-color: var(--Color_Success_500);
+}
+.toast-warning {
+  background-color: var(--Color_Warn_500);
+}
+.toast-danger {
+  background-color: var(--Color_Danger_500);
+}
+.close-icon {
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
