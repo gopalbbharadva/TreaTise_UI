@@ -1,0 +1,32 @@
+.alert-dialog {
+  max-width: 300px;
+  width: 100%;
+  background-color: var(--Primary_Color_100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.dialog-header {
+  font-size: 1.3rem;
+  padding: 8px 0;
+  color: var(--Color_Black);
+  margin: 0;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.action-button {
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--Primary_Color);
+  background-color: var(--Color_White);
+  border-radius: 5px;
+  padding: 8px;
+}
