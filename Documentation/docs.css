@@ -54,13 +54,14 @@ body {
 
 /* Sidebar css */
 .sidebar-component {
-  padding: 1rem 0;
-  max-width: 250px;
-  width: 100%;
+  height: calc(100vh - 68px);
+  overflow-y: scroll;
+  scrollbar-color: var(--Secondary_Color) #fff;
   border-right: 2px solid var(--Primary_Disabled_Color);
 }
 .sidebar-section-heading {
-  padding-left: 3rem;
+  margin: 1rem 0;
+  padding:0 1rem;
   font-size: 1.2rem;
   color: var(--Primary_Color);
 }
@@ -69,12 +70,13 @@ body {
   padding: 0;
 }
 .component-item {
+  box-sizing: border-box;
   cursor: pointer;
-  display: block;
-  padding: 10px 4rem;
+  display: list-item;
 }
-.component-item a {
-  padding-right: 9rem;
+.component-item a{
+  display: block;
+  padding: 10px 6rem 10px 3rem;
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
