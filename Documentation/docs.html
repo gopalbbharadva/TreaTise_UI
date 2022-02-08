@@ -1208,7 +1208,189 @@
         <!-- ***********Avatar************
             ************Component*******
             ************Ends**********-->
+
+        <!-- ***********Input************
+            ************Component*******
+            ************Starts**********-->
+
+        <div id="input" class="inputs">
+          <div class="description-area">
+            <h1 class="main-header-title">Input</h1>
+            <p class="main-header-description">
+              Input element in HTML provides user to enter usres details via
+              built in default components.
+            </p>
+          </div>
+
+          <!-- || Simple text input starts -->
+          <div class="end-border">
+            <div class="category">
+              <h2 class="cat-header-title">Simple inputs</h2>
+              <p class="cat-header-description">
+                Simple textbox with input type text allows user to enter user's
+                name, state, country etc...
+              </p>
+            </div>
+            <!-- UI starts -->
+
+            <div class="output-container">
+              <input
+                class="input is-input-primary"
+                type="text"
+                placeholder="Simple primary textbox"
+              />
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cinput%250A%2520%2520class%253D%2522input%2520is-primary%2522%250A%2520%2520type%253D%2522text%2522%250A%2520%2520placeholder%253D%2522Simple%2520primary%2520textbox%2522%250A%252F%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- || Simple text input ends -->
+
+          <!-- || Disabled text input starts -->
+          <div class="end-border">
+            <div class="category">
+              <h2 class="cat-header-title">Disabled text box</h2>
+              <p class="cat-header-description">
+                Text box is disabled by attaching attribute called disabled.
+              </p>
+            </div>
+            <!-- UI starts -->
+
+            <div class="output-container">
+              <input
+                class="input is-disabled"
+                type="text"
+                placeholder="Disabled Text Box"
+                disabled
+              />
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cinput%250A%2520%2520class%253D%2522input%2520is-disabled%2522%250A%2520%2520type%253D%2522text%2522%250A%2520%2520placeholder%253D%2522Disabled%2520Text%2520Box%2522%250A%2520%2520disabled%250A%252F%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- || Disabled text input ends -->
+
+          <!-- || Phone number input starts -->
+          <div class="end-border">
+            <div class="category">
+              <h2 class="cat-header-title">Phone number</h2>
+              <p class="cat-header-description">
+                Phone number input takes input type as tel and maxlength as 10
+                to enter valid phone number.
+              </p>
+            </div>
+            <!-- UI starts -->
+
+            <div class="output-container">
+              <div class="input-icon-container is-input-success">
+                <i class="fas fa-phone phone-icon"></i>
+                <input
+                  type="tel"
+                  class="input phone-input"
+                  maxlength="10"
+                  placeholder="Phone"
+                />
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-icon-container%2520is-input-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-phone%2520phone-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522tel%2522%250A%2520%2520%2520%2520class%253D%2522input%2520phone-input%2522%250A%2520%2520%2520%2520maxlength%253D%252210%2522%250A%2520%2520%2520%2520placeholder%253D%2522Phone%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- || Phone number input ends -->
+
+          <!-- || Validation input starts -->
+          <div class="end-border">
+            <div class="category">
+              <h2 class="cat-header-title">Validation success</h2>
+              <p class="cat-header-description">
+                User enters the valid username then input will give success
+                message.
+              </p>
+            </div>
+            <!-- UI starts -->
+
+            <div class="output-container">
+              <div class="validation-success">
+                <div class="input-icon-container is-input-success">
+                  <i class="fas fa-user pre-icon icon-user"></i>
+                  <input
+                    class="input username-input"
+                    type="text"
+                    placeholder="Username:"
+                  />
+                  <i class="fas fa-check-circle icon-success"></i>
+                </div>
+                <span class="message success-message"
+                  >Hurray! valid username</span
+                >
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522validation-success%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-icon-container%2520is-input-success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2520pre-icon%2520icon-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520username-input%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Username%253A%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520icon-success%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522message%2520success-message%2522%250A%2520%2520%2520%2520%253EHurray%21%2520valid%2520username%253C%252Fspan%250A%2520%2520%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="end-border">
+            <div class="category">
+              <h2 class="cat-header-title">Validation error</h2>
+              <p class="cat-header-description">
+                User enters the invalid password then input will give error
+                message.
+              </p>
+            </div>
+            <!-- UI starts -->
+
+            <div class="output-container">
+              <div class="validation-error">
+                <div class="input-icon-container is-input-danger">
+                  <i class="fas fa-lock pre-icon icon-password"></i>
+                  <input
+                    class="input password-input"
+                    type="password"
+                    placeholder="Password:"
+                  />
+                  <i class="fas fa-times-circle icon-error"></i>
+                </div>
+                <span class="message error-message">Oops! wrong password</span>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522validation-error%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-icon-container%2520is-input-danger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-lock%2520pre-icon%2520icon-password%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520password-input%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Password%253A%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520icon-error%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522message%2520error-message%2522%253EOops%21%2520wrong%2520password%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <!-- || Validation input ends -->
+        </div>
+
+        <!-- ***********Input************
+            ************Component*******
+            ************Ends**********-->
       </section>
     </main>
   </body>
 </html>
+i
