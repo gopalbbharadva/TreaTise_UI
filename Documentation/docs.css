@@ -65,6 +65,9 @@ body {
   color: var(--Primary_Color);
 }
 
+.sidebar-component-list{
+  padding: 0;
+}
 .component-item {
   cursor: pointer;
   display: block;
