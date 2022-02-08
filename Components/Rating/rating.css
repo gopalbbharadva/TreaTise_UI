@@ -1,5 +1,4 @@
 .rating {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,7 @@
 }
 .rating i {
   font-size: 12px;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .fill {

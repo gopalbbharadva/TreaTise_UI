@@ -69,13 +69,13 @@
             <a href="#list" class="is-list">List</a>
           </li>
           <li class="component-item">
-            <a href="#navigation" class="is-navigation">Navigation</a>
+            <a href="#modal" class="is-modal">Modal</a>
           </li>
           <li class="component-item">
-            <a href="#navigation" class="is-navigation">Navigation</a>
+            <a href="#rating" class="is-rating">Rating</a>
           </li>
           <li class="component-item">
-            <a href="#navigation" class="is-navigation">Navigation</a>
+            <a href="#toast" class="is-toast">Toast</a>
           </li>
         </ul>
       </aside>
@@ -1627,7 +1627,7 @@
             </div>
             <div class="code-container">
               <iframe
-              class="snippet"
+                class="snippet"
                 src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-modal%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522dialog-header%2522%253ELogin%2520for%2520better%2520experience.%253C%252Fh1%253E%250A%2520%2520%253Cp%253Egoodreads%2520is%2520like%2520social%2520media%2520for%2520book%2520readers.%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522options%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522action-button%2522%253EContinue%2520without%2520login%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522action-button%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin"
               >
@@ -1636,6 +1636,57 @@
           </div>
         </div>
         <!-- ***********Modal************
+            ************Component*******
+            ************Ends**********-->
+
+        <!-- ***********Rating************
+            ************Component*******
+            ************Starts**********-->
+        <div id="rating" class="rating-component">
+          <div class="description-area">
+            <h1 class="main-header-title">Rating</h1>
+            <p class="main-header-description">
+              Rating is a component by which performance of particular product
+              or service can be measured.
+            </p>
+          </div>
+          <!-- Spaced list starts -->
+          <div class="end-border">
+            <div class="output-container mt">
+              <div>
+                <span class="rating high-rating">
+                  <small>4.4</small>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="rating average-rating">
+                  <small>3.3</small>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="rating low-rating">
+                  <small>1.3</small>
+                  <i class="fas fa-star"></i>
+                </span>
+              </div>
+
+              <span class="static-rating">
+                <i class="fas fa-star fill"></i>
+                <i class="fas fa-star fill"></i>
+                <i class="fas fa-star fill"></i>
+                <i class="fas fa-star empty"></i>
+                <i class="fas fa-star empty"></i>
+              </span>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522rating%2520high-rating%2522%253E%250A%2520%2520%2520%2520%253Csmall%253E4.4%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522rating%2520average-rating%2522%253E%250A%2520%2520%2520%2520%253Csmall%253E3.3%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522rating%2520low-rating%2522%253E%250A%2520%2520%2520%2520%253Csmall%253E1.3%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cspan%2520class%253D%2522static-rating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520empty%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520empty%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <!-- ***********Rating************
             ************Component*******
             ************Ends**********-->
       </section>
