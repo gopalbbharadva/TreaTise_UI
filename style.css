@@ -33,6 +33,13 @@ body {
 .nav-item a:hover {
   color: var(--Secondary_Color);
 }
+
+.nav-list{
+  list-style: none;
+}
+.nav-list li{
+  display: inline-block;
+}
 .main-content {
   display: flex;
   flex-direction: column;
@@ -83,10 +90,10 @@ body {
   text-align: center;
 }
 .main-heading {
-  font-family: "Montserrat", sans-serif;
   color: var(--Color_Black);
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 .main-version-info {
   color: var(--Color_Secondary_700);

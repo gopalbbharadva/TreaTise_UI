@@ -45,6 +45,12 @@ body {
 .nav-item a:hover {
   color: var(--Secondary_Color);
 }
+.nav-list{
+  list-style: none;
+}
+.nav-list li{
+  display: inline-block;
+}
 
 /* Sidebar css */
 .sidebar-component {
