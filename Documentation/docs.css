@@ -79,6 +79,9 @@ body {
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
 }
+.mt{
+  margin-top: 1rem;
+}
 
 @media screen and (max-width: 582px) {
   .sidebar-component {
