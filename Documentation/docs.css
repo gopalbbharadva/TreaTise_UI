@@ -62,6 +62,8 @@ body {
 .sidebar-section-heading {
   margin: 1rem 0;
   padding:0 1rem;
+  word-wrap: break-word;
+  text-align: center;
   font-size: 1.2rem;
   color: var(--Primary_Color);
 }
@@ -76,7 +78,7 @@ body {
 }
 .component-item a{
   display: block;
-  padding: 10px 6rem 10px 3rem;
+  padding: 10px 6rem 10px 4rem;
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);

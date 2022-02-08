@@ -77,6 +77,9 @@
           <li class="component-item">
             <a href="#toast" class="is-toast">Toast</a>
           </li>
+          <li class="component-item">
+            <a href="#grid" class="is-grid">Grids simplified</a>
+          </li>
         </ul>
       </aside>
 
@@ -1730,11 +1733,198 @@
             </div>
           </div>
         </div>
-        <!-- ***********Rating************
+        <!-- ***********Toast************
+            ************Component*******
+            ************Ends**********-->
+
+        <!-- ***********Grid************
+            ************Component*******
+            ************Starts**********-->
+
+        <div id="grid" class="grdi-component">
+          <div class="description-area">
+            <h1 class="main-header-title">Grids</h1>
+            <p class="main-header-description">
+              Grids are basically to show your childs into grid form just like
+              pictures in gallery, products on flipKart etc...
+            </p>
+          </div>
+          <!-- || Grid with 2 child item -->
+          <div class="end-border">
+            <div class="output-container mt">
+              <div class="grid-2-item">
+                <div class="card card-shadow">
+                  <div class="card-image-container">
+                    <img
+                      class="image-responsive"
+                      src="/Images/lineriver.jpg"
+                      alt="No preview available"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">A line in the river</h3>
+                    <small class="not">By John Willy</small>
+                    <p class="card-description">
+                      Think twice, write it on paper and do it in actions.
+                    </p>
+                    <p class="card-sell-price">
+                      <span>₹325</span><span class="card-cost-price">₹650</span
+                      ><span class="card-discount">50%off</span>
+                    </p>
+                    <button class="card-button is-cart">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>Add to Cart</span
+                      >
+                    </button>
+                  </div>
+                </div>
+                <div class="card card-shadow">
+                  <div class="card-image-container">
+                    <img
+                      class="image-responsive"
+                      src="/Images/lineriver.jpg"
+                      alt="No preview available"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">A line in the river</h3>
+                    <small class="not">By John Willy</small>
+                    <p class="card-description">
+                      Think twice, write it on paper and do it in actions.
+                    </p>
+                    <p class="card-sell-price">
+                      <span>₹325</span><span class="card-cost-price">₹650</span
+                      ><span class="card-discount">50%off</span>
+                    </p>
+                    <button class="card-button is-cart">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>Add to Cart</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-2-item%2522%253E%250A%252F%252F%2520Put%2520your%2520content%2520here...%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- || Grid with 3 child item -->
+          <div id="grid" class="end-border">
+            <div class="output-container mt">
+              <div class="grid-3-item">
+                <div class="card">
+                  <h3 class="card-badge">Trending</h3>
+                  <div class="card-image-container">
+                    <img
+                      class="image-responsive"
+                      src="/Images/lineriver.jpg"
+                      alt="No preview available"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">A line in the river</h3>
+                    <small class="not">By John Willy</small>
+                    <p class="card-description">
+                      Think twice, write it on paper and do it in actions.
+                    </p>
+                    <p class="card-sell-price">
+                      <span>₹325</span><span class="card-cost-price">₹650</span
+                      ><span class="card-discount">50%off</span>
+                    </p>
+                    <button class="card-button is-cart">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>Add To Cart</span
+                      >
+                    </button>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-overlay">
+                    <span class="card-badge">Best Value</span>
+                    <div class="card-image-container">
+                      <img
+                        class="image-responsive"
+                        src="/Images/lineriver.jpg"
+                        alt="No preview available"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">A line in the river</h3>
+                      <small class="not">By John Willy</small>
+                      <p class="card-description">
+                        Think twice, write it on paper and do it in actions.
+                      </p>
+                      <p class="card-sell-price">
+                        <span>₹325</span
+                        ><span class="card-cost-price">₹650</span
+                        ><span class="card-discount">50%off</span>
+                      </p>
+                      <button class="card-button is-cart">
+                        <span>
+                          <i class="fas fa-shopping-cart"></i>Add To Cart</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-overlay-text">
+                    <p>Currently Unavailable</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <span class="card-badge">Best Value</span>
+                  <span class="card-dismiss">
+                    <i class="fas fa-times"></i>
+                  </span>
+                  <div class="card-image-container">
+                    <img
+                      class="image-responsive"
+                      src="/Images/lineriver.jpg"
+                      alt="No preview available"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">A line in the river</h3>
+                    <small class="not">By John Willy</small>
+                    <p class="card-description">
+                      Think twice, write it on paper and do it in actions.
+                    </p>
+                    <p class="card-sell-price">
+                      <span>₹325</span><span class="card-cost-price">₹650</span
+                      ><span class="card-discount">50%off</span>
+                    </p>
+                    <button class="card-button is-cart">
+                      <span>
+                        <i class="fas fa-shopping-cart"></i>Add To Cart</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <iframe
+                class="snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C34%2C64%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=157%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-3-item%2522%253E%250A%252F%252FPut%2520your%2520content%2520here...%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <!-- ***********Grid************
             ************Component*******
             ************Ends**********-->
       </section>
     </main>
   </body>
 </html>
-i
+
