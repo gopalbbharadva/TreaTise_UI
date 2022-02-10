@@ -45,10 +45,10 @@ body {
 .nav-item a:hover {
   color: var(--Secondary_Color);
 }
-.nav-list{
+.nav-list {
   list-style: none;
 }
-.nav-list li{
+.nav-list li {
   display: inline-block;
 }
 
@@ -61,14 +61,14 @@ body {
 }
 .sidebar-section-heading {
   margin: 1rem 0;
-  padding:0 1rem;
+  padding: 0 1rem;
   word-wrap: break-word;
   text-align: center;
   font-size: 1.2rem;
   color: var(--Primary_Color);
 }
 
-.sidebar-component-list{
+.sidebar-component-list {
   padding: 0;
 }
 .component-item {
@@ -76,15 +76,18 @@ body {
   cursor: pointer;
   display: list-item;
 }
-.component-item a{
+.component-item a {
   display: block;
   padding: 10px 6rem 10px 4rem;
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
 }
-.mt{
-  margin-top: 1rem;
+.mt {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--Primary_Disabled_Color);
 }
 
 @media screen and (max-width: 582px) {

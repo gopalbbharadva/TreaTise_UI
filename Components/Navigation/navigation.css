@@ -73,7 +73,7 @@
   color: var(--Primary_Color);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .search-icon {
     color: var(--Primary_Color);
     font-size: 1.25rem;
