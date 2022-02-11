@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--Primary_Color);
   padding: 0 1rem;
 }
 .login-link {
@@ -9,7 +9,7 @@
   border-radius: 2px;
   background-color: var(--Primary_Color);
   text-decoration: none;
-  color: var(--Color_white);
+  color: var(--Color_White);
 }
 .login-link:hover {
   opacity: 0.7;
