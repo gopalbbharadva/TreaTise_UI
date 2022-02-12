@@ -1,0 +1,22 @@
+.grid-2-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:1000px){
+  .grid-2-item{
+    grid-template-columns: 1fr;
+  }
+  .grid-3-item{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width:700px){
+ .grid-3-item{
+   grid-template-columns: 1fr;
+ } 
+}

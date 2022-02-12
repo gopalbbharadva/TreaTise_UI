@@ -21,9 +21,7 @@
   padding: 1rem;
   border-radius: 10px;
   margin: 1rem;
-  width: fit-content;
   list-style-type: none;
-  border: 2px solid var(--Primary_Color);
 }
 .stacked-list li {
   padding: 1rem;
@@ -34,6 +32,7 @@
 .stacked-list span {
   height: 24px;
   width: 24px;
+  margin-right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;

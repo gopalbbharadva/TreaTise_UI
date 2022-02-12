@@ -9,8 +9,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem;
   margin: 0 2rem;
+  padding: 1rem;
   border-radius: 5px;
   border: 2px solid var(--Primary_Disabled_Color);
 }
@@ -23,13 +23,14 @@
 .main-header-title {
   color: var(--Primary_Color);
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: 3.5rem;
 }
 .main-header-description {
   opacity: 0.8;
   font-family: var(--Lato_Font);
   font-size: 1.25rem;
+  line-height: 2rem;
 }
 .cat-header-title {
   font-weight: 400;
@@ -39,6 +40,6 @@
 }
 .cat-header-description {
   font-family: var(--Lato_Font);
-  font-size: 1.25rem;
-  opacity: 0.8;
+  font-size: 1rem;
+  line-height: 2rem;
 }

@@ -2,10 +2,14 @@
 
 body {
   font-family: "Lato", sans-serif;
-  overflow: hidden;
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
 }
 .highlight {
   color: var(--Primary_Color);
+}
+.root {
+  display: flex;
+  flex-direction: column;
 }
 /* \\ Main container */
 .main-container {
@@ -15,6 +19,7 @@ body {
   scroll-behavior: smooth;
   padding: 1rem 0;
   height: calc(100vh - 68px);
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
   overflow: scroll;
   width: 100%;
 }
@@ -45,30 +50,49 @@ body {
 .nav-item a:hover {
   color: var(--Secondary_Color);
 }
+.nav-list {
+  list-style: none;
+}
+.nav-list li {
+  display: inline-block;
+}
 
 /* Sidebar css */
 .sidebar-component {
-  padding: 1rem 0;
-  max-width: 250px;
-  width: 100%;
+  height: calc(100vh - 68px);
+  overflow-y: scroll;
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
   border-right: 2px solid var(--Primary_Disabled_Color);
 }
 .sidebar-section-heading {
-  padding-left: 3rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  word-wrap: break-word;
+  text-align: center;
   font-size: 1.2rem;
   color: var(--Primary_Color);
 }
 
+.sidebar-component-list {
+  padding: 0;
+}
 .component-item {
+  box-sizing: border-box;
   cursor: pointer;
-  display: block;
-  padding: 10px 4rem;
+  display: list-item;
 }
 .component-item a {
-  padding-right: 9rem;
+  display: block;
+  padding: 10px 6rem 10px 4rem;
 }
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
+}
+.mt {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--Primary_Disabled_Color);
 }
 
 @media screen and (max-width: 582px) {
