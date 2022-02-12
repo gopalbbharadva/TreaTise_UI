@@ -2,10 +2,14 @@
 
 body {
   font-family: "Lato", sans-serif;
-  overflow: hidden;
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
 }
 .highlight {
   color: var(--Primary_Color);
+}
+.root {
+  display: flex;
+  flex-direction: column;
 }
 /* \\ Main container */
 .main-container {
@@ -15,6 +19,7 @@ body {
   scroll-behavior: smooth;
   padding: 1rem 0;
   height: calc(100vh - 68px);
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
   overflow: scroll;
   width: 100%;
 }
@@ -56,7 +61,7 @@ body {
 .sidebar-component {
   height: calc(100vh - 68px);
   overflow-y: scroll;
-  scrollbar-color: var(--Secondary_Color) #fff;
+  scrollbar-color: var(--Secondary_Color) var(--Color_White);
   border-right: 2px solid var(--Primary_Disabled_Color);
 }
 .sidebar-section-heading {

@@ -11,11 +11,11 @@
 @import url("/Components/Input/input.css");
 @import url("/Components/Image/image.css");
 @import url("/Components/List/list.css");
-@import url('/Components/Navigation/navigation.css');
-@import url('/Components/Modal/modal.css');
-@import url('/Components/Rating/rating.css');
-@import url('/Components/Toast/toast.css');
-@import url('/Components/Grid/grid.css');
+@import url("/Components/Navigation/navigation.css");
+@import url("/Components/Modal/modal.css");
+@import url("/Components/Rating/rating.css");
+@import url("/Components/Toast/toast.css");
+@import url("/Components/Grid/grid.css");
 @import url("/CSS/reusedoc.css");
 @import url("/CSS/snippet.css");
 /* Colors */
@@ -53,9 +53,8 @@
 
   --Color_Purple_500: #a855f7;
 
-  --Color_Black: #111827;
-  --Color_White: #f9fafb;
-  --Color_Snippet: #002240;
+  --Color_Black: black;
+  --Color_White: white;
 
   /* Font-family */
   --Lato_Font: "Lato", sans-serif;
