@@ -32,7 +32,8 @@
 }
 
 .search-bar {
-  width: 30%;
+  max-width: 30rem;
+  width: 100%;
   display: flex;
   background-color: var(--Primary_Color_100);
   padding: 10px;
@@ -73,7 +74,7 @@
   font-size: 1.5rem;
   color: var(--Primary_Color);
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .search-icon {
     color: var(--Primary_Color);
     font-size: 1.25rem;
