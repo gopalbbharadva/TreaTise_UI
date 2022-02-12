@@ -1,10 +1,11 @@
 .navigation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--Primary_Color);
   padding: 0 1rem;
 }
 .login-link {
+  margin-left: 1rem;
   padding: 10px 1rem;
   border-radius: 2px;
   background-color: var(--Primary_Color);
@@ -31,7 +32,8 @@
 }
 
 .search-bar {
-  margin-left: auto;
+  width: 30%;
+  display: flex;
   background-color: var(--Primary_Color_100);
   padding: 10px;
   border-radius: 5px;
@@ -47,7 +49,6 @@
   font-size: 1rem;
   border: none;
   background: transparent;
-  margin-right: auto;
 }
 .search-input:focus {
   outline: 0;
@@ -72,7 +73,6 @@
   font-size: 1.5rem;
   color: var(--Primary_Color);
 }
-
 @media screen and (max-width: 750px) {
   .search-icon {
     color: var(--Primary_Color);
