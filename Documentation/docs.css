@@ -88,13 +88,13 @@ body {
 .component-item:hover {
   background-color: var(--Primary_Disabled_Color);
 }
-.mt {
-  margin: 1rem;
+.output-container {
+  margin: 2rem;
   padding: 1rem;
   border-radius: 5px;
   border: 2px solid var(--Primary_Disabled_Color);
 }
-.gray-text{
+.gray-text {
   color: var(--Secondary_Color);
 }
 
