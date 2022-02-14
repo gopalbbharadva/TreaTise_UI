@@ -94,6 +94,9 @@ body {
   border-radius: 5px;
   border: 2px solid var(--Primary_Disabled_Color);
 }
+.gray-text{
+  color: var(--Secondary_Color);
+}
 
 @media screen and (max-width: 582px) {
   .sidebar-component {
