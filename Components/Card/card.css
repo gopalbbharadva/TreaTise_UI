@@ -1,7 +1,7 @@
 @import url("/global.css");
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--Lato_Font);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -24,7 +24,7 @@ body {
   box-shadow: RGBA(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card-horizontal {
-  width: 500px;
+  width: 30rem;
   max-width: 100%;
   display: flex;
   flex-direction: row;
@@ -32,12 +32,12 @@ body {
   align-items: flex-start;
 }
 
-.horizontal-image-container {
-  width: 35%;
-}
-.image-responsive {
+.image-responsive{
   max-width: 100%;
   height: auto;
+}
+.horizontal-card-image {
+  width: 8rem;
 }
 
 .card-badge {
@@ -67,7 +67,9 @@ body {
   flex-direction: column;
 }
 .card-title {
+  font-weight: 400;
   line-height: 1.5rem;
+  margin: 0;
 }
 .card-description {
   padding: 0;
@@ -76,7 +78,7 @@ body {
   line-height: 1.2rem;
 }
 .card-sell-price {
-  margin-top: 2rem;
+  padding-top: 1rem;
 }
 .card-cost-price {
   margin-left: 5px;
@@ -90,7 +92,12 @@ body {
   color: var(--Primary_Color);
 }
 
+.card-button-container{
+  display: flex;
+  flex-direction: column;
+}
 .card-button {
+  font-weight: 600;
   padding: 10px;
   margin-top: 10px;
 }
@@ -133,9 +140,9 @@ body {
   font-weight: 600;
   color: var(--Color_Danger_500);
 }
-.text-overlay{
-    font-size: 1.2rem;
-    text-align: center;
+.text-overlay {
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .description-text {
