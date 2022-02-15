@@ -82,7 +82,6 @@ a {
 
 /* || Imagenary */
 img {
-  max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
 }
