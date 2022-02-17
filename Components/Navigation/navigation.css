@@ -89,6 +89,50 @@
   font-size: 1.5rem;
   color: var(--Primary_Color);
 }
+
+/* Second navigation styles  */
+.navigation-bar {
+  background-color: var(--Body_Bg_Color);
+  display: flex;
+  padding: 0;
+  border-bottom: 1px solid var(--Secondary_Border_Color);
+}
+.menu-icon,
+.profile-icon {
+  color: var(--Color_White);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 0 0 1rem;
+}
+.logo-link {
+  color: var(--Primary_Color);
+  font-family: var(--Logo_Font);
+  font-size: 2rem;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.rules-link {
+  color: var(--Color_White);
+  display: none;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+}
+.nav-right-part {
+  padding: 1rem;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .menu-icon {
+    display: none;
+  }
+  .rules-link {
+    display: block;
+  }
+}
 @media screen and (max-width: 500px) {
   .search-icon {
     color: var(--Primary_Color);
