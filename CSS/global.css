@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 
 /* || Css Component files */
 @import url("/Components/Alert/alert.css");
@@ -31,6 +32,10 @@
   --Secondary_Hover_Color: #4b5563;
   --Secondary_Border_Color: #e5e7eb;
 
+  /* Dark theme colors */
+  --Body_Bg_Color: #23272f;
+  --Secondary_Bg_Color: #343a46;
+
   /* || Text colors */
 
   --Color_Info_500: #3b82f6;
@@ -58,6 +63,7 @@
 
   /* Font-family */
   --Lato_Font: "Lato", sans-serif;
+  --Logo_Font: "Lobster Two", cursive;
 }
 body {
   padding: 0;
