@@ -1,14 +1,10 @@
 @import url("/CSS/global.css");
 
-body {
-  font-family: "Lato", sans-serif;
-}
 .highlight {
   color: var(--Primary_Color);
 }
 .navigation-bar {
   padding: 5px;
-  border: 1px solid black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,7 +20,7 @@ body {
   cursor: pointer;
   color: var(--Primary_Color);
   font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
+  font-family: var(--Lato_Font);
   margin-right: 1rem;
 }
 .nav-item a {
@@ -34,10 +30,10 @@ body {
   color: var(--Secondary_Color);
 }
 
-.nav-list{
+.nav-list {
   list-style: none;
 }
-.nav-list li{
+.nav-list li {
   display: inline-block;
 }
 .main-content {
@@ -57,8 +53,7 @@ body {
 }
 .main-image-container {
   position: relative;
-  position: relative;
-  max-width: 400px;
+  max-width: 25rem;
 }
 .main-name {
   width: 20%;
