@@ -3,13 +3,7 @@
 .highlight {
   color: var(--Primary_Color);
 }
-.navigation-bar {
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid var(--Primary_Disabled_Color);
-}
+
 .nav-brand {
   cursor: pointer;
   color: var(--Primary_Color);

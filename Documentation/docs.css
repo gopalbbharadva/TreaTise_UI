@@ -23,13 +23,7 @@ body {
   padding-bottom: 10px;
 }
 /* || Navigation bar*/
-.nav-bar {
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 2px solid var(--Primary_Disabled_Color);
-}
+
 .nav-brand {
   cursor: pointer;
   color: var(--Primary_Color);

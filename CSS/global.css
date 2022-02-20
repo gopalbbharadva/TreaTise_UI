@@ -16,7 +16,7 @@
 @import url("/Components/Modal/modal.css");
 @import url("/Components/Rating/rating.css");
 @import url("/Components/Toast/toast.css");
-@import url('/Components/TextUtilities/textutils.css');
+@import url("/Components/TextUtilities/textutils.css");
 @import url("/Components/Grid/grid.css");
 @import url("/CSS/reusedoc.css");
 @import url("/CSS/snippet.css");
@@ -99,4 +99,12 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1rem;
+}
+
+.nav-bar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid var(--Primary_Disabled_Color);
 }
