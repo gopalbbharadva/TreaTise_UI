@@ -23,26 +23,24 @@
 .main-header-title {
   font-weight: 400;
   color: var(--Primary_Color);
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin: 0;
 }
 .main-header-description {
   opacity: 0.8;
   font-family: var(--Lato_Font);
-  font-size: 1.25rem; 
-  line-height: 1.75rem;
+  font-size: 1.1rem; 
 }
 .cat-header-title {
   font-weight: 400;
   color: var(--Primary_Color);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   margin: 0;
 }
 .cat-header-description {
   opacity: 0.8;
   font-family: var(--Lato_Font);
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.1rem;
 }

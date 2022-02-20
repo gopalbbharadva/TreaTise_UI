@@ -7,10 +7,6 @@ body {
 .highlight {
   color: var(--Primary_Color);
 }
-.root {
-  display: flex;
-  flex-direction: column;
-}
 /* \\ Main container */
 .main-container {
   display: flex;
@@ -18,13 +14,16 @@ body {
 .main-component-container {
   scroll-behavior: smooth;
   padding: 1rem 0;
-  height: calc(100vh - 68px);
   scrollbar-color: var(--Secondary_Color) var(--Color_White);
   overflow: scroll;
   width: 100%;
+  height: calc(100vh - 100px);
+}
+.main-header-description{
+  padding-bottom: 10px;
 }
 /* || Navigation bar*/
-.navigation-bar {
+.nav-bar {
   padding: 5px;
   display: flex;
   justify-content: space-around;
