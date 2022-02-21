@@ -1,17 +1,25 @@
 # TreaTise UI
 Easy and effective component library for making **Web layouts**.
 
+## How to use it?
+
+#### Import
+* Copy below link and paste it in your **Head** tag.
+```javascript
+<link rel="stylesheet" href="/CSS/style.css" />
+```
+
+#### Documentation
+* Check out [Docs](https://treatiseui.netlify.app/documentation/docs)
+
+***
+
 ## Table of contents
 * [Why TreaTise ?](#why)
-* [How to use it ?](#how-to-use)
-
-  * [Import](#import)
-  * [Documentation](#documentation)
-  
 * [What about tech stack ?](#tech-stack)
 * [Want to see live demo ?](#live-demo)
 
-  * [Images](#images)
+  * [Screen Shots](#images)
   * [Live Demo](#link)
   
 * [What's my learning ?](#learnings)
@@ -44,36 +52,17 @@ Easy and effective component library for making **Web layouts**.
 
 ***
 
-<a name="how-to-use"/>
-
-### How to use it ?
-
-<a name="import"/>
-
-#### Import
-* Copy below link and paste it in your **Head** tag.
-```javascript
-<link rel="stylesheet" href="style.css" />
-```
-
-<a name="documentation"/>
-
-#### Documentation
-* Check out [Docs](https://treatiseui.netlify.app/documentation/docs)
-
-
-***
-
 <a name="live-demo"/>
 
 ### Want to see live demo?
 
-<a name="Images"/>
+<a name="Screen Shots"/>
 
 #### Images
-![image](https://user-images.githubusercontent.com/75557011/154644746-b37523dd-b629-4d9d-ad1a-fcb3c84a29d2.png)
+![image](https://user-images.githubusercontent.com/75557011/154931019-8b4f6140-64fc-479b-b35b-c37c2794e275.png)
 
-![image](https://user-images.githubusercontent.com/75557011/154644983-60325cd0-58e3-49a7-9792-36e5859db698.png)
+![image](https://user-images.githubusercontent.com/75557011/154931178-66b430a9-d6e5-435e-8590-f347fdc2d876.png)
+
 
 
 <a name="link"/>
