@@ -14,6 +14,25 @@ Easy and effective component library for making **Web layouts**.
 
 ***
 
+## Components
+
+* [Alert](https://treatiseui.netlify.app/documentation/docs#alert)
+* [Avatar](https://treatiseui.netlify.app/documentation/docs#avatar)
+* [Badge](https://treatiseui.netlify.app/documentation/docs#badge)
+* [Button](https://treatiseui.netlify.app/documentation/docs#button)
+* [Card](https://treatiseui.netlify.app/documentation/docs#card)
+* [Image](https://treatiseui.netlify.app/documentation/docs#image)
+* [Input](https://treatiseui.netlify.app/documentation/docs#input)
+* [List](https://treatiseui.netlify.app/documentation/docs#list)
+* [Modal](https://treatiseui.netlify.app/documentation/docs#modal)
+* [Navigation](https://treatiseui.netlify.app/documentation/docs#navigation)
+* [Rating](https://treatiseui.netlify.app/documentation/docs#rating)
+* [Toast](https://treatiseui.netlify.app/documentation/docs#toast)
+* [Text-Utilities](https://treatiseui.netlify.app/documentation/docs#text-utilities)
+* [Grids](https://treatiseui.netlify.app/documentation/docs#grid)
+
+***
+
 ## Table of contents
 * [Why TreaTise ?](#why)
 * [What about tech stack ?](#tech-stack)
