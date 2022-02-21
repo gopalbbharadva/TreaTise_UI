@@ -35,6 +35,7 @@ Easy and effective component library for making **Web layouts**.
 
 ## Table of contents
 * [Why TreaTise ?](#why)
+* [Can you show features ?](#features)
 * [What about tech stack ?](#tech-stack)
 * [Want to see live demo ?](#live-demo)
 
@@ -58,6 +59,18 @@ Easy and effective component library for making **Web layouts**.
 * Purpose of **Treatise UI**  is to make any layout without worrying about components. It gives you prebuilt components with custom designs. If you want to style the component in your way, you can also do that. So the main purpose is to simplify the **design** for your project.
 
 ***
+
+
+<a name="features"/>
+
+### Can you show features?
+* Real world web components.
+* Easy to use.
+* Totally free.
+* Documentation for each component.
+* Reusable and portable.
+
+*** 
 
 <a name="tech-stack"/>
 
