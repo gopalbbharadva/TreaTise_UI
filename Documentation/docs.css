@@ -19,10 +19,16 @@ body {
   width: 100%;
   height: calc(100vh - 100px);
 }
-.main-header-description{
-  padding-bottom: 10px;
+.main-header-description {
+  padding-top: 10px;
 }
 /* || Navigation bar*/
+
+.bars-icon {
+  font-size: 1.5rem;
+  display: none;
+  cursor: pointer;
+}
 
 .nav-brand {
   cursor: pointer;
@@ -54,9 +60,30 @@ body {
 .sidebar-component {
   height: calc(100vh - 68px);
   overflow-y: scroll;
-  scrollbar-color: var(--Secondary_Color) var(--Color_White);
+  scrollbar-color: var(--Primary_Disabled_Color) var(--Color_White);
   border-right: 2px solid var(--Primary_Disabled_Color);
 }
+
+.component-list {
+  height: 80%;
+  list-style: none;
+  position: fixed;
+  top: 68px;
+  left: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: var(--Color_White);
+}
+
+.component-list h3{
+  color: var(--Primary_Color);
+  margin-left: 3rem;
+  padding: 0;
+}
+
 .sidebar-section-heading {
   margin: 1rem 0;
   padding: 0 1rem;
@@ -91,8 +118,11 @@ body {
   color: var(--Secondary_Color);
 }
 
-@media screen and (max-width: 582px) {
+@media (max-width: 650px) {
   .sidebar-component {
     display: none;
+  }
+  .bars-icon {
+    display: block;
   }
 }
