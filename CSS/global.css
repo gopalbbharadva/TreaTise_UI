@@ -73,6 +73,18 @@ body {
   font-family: var(--Lato_Font);
 }
 /* || Typography */
+.fs-sm {
+  font-size: 10px;
+}
+.fs-md {
+  font-size: 1rem;
+}
+.fs-lg {
+  font-size: 1.5rem;
+}
+.fs-xlg {
+  font-size: 1.75rem;
+}
 
 p {
   padding: 0;
@@ -93,6 +105,77 @@ img {
   object-fit: cover;
 }
 
+/* || Spacing  */
+
+/* padding */
+.pd-sm {
+  padding: 0.5rem;
+}
+.pd-md {
+  padding: 1rem;
+}
+.pd-lg {
+  padding: 1.5rem;
+}
+.pd-xlg {
+  padding: 2rem;
+}
+.pd-hztl-sm {
+  padding: 0 0.5rem 0 0.5rem;
+}
+.pd-hztl-md {
+  padding: 0 1rem 0 1rem;
+}
+.pd-hztl-lg {
+  padding: 0 1.5rem 0 1.5rem;
+}
+.pd-vrtl-sm {
+  padding: 0.5rem 0 0.5rem 0;
+}
+.pd-vrtl-md {
+  padding: 1rem 0 1rem 0;
+}
+.pd-vrtl-lg {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+/* margin */
+.mg-sm {
+  margin: 0.5rem;
+}
+.mg-md {
+  margin: 1rem;
+}
+.mg-lg {
+  margin: 1.5rem;
+}
+.mg-xlg {
+  margin: 2rem;
+}
+.mg-hztl-sm {
+  margin: 0 0.5rem 0 0.5rem;
+}
+.mg-hztl-md {
+  margin: 0 1rem 0 1rem;
+}
+.mg-hztl-lg {
+  margin: 0 1.5rem 0 1.5rem;
+}
+.mg-hztl-xlg {
+  margin: 0 2rem 0 2rem;
+}
+.mg-vrtl-sm {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.mg-vrtl-md {
+  margin: 1rem 0 1rem 0;
+}
+.mg-vrtl-lg {
+  margin: 1.5rem 0 1.5rem 0;
+}
+.mg-vrtl-xlg {
+  margin: 2rem 0 2rem 0;
+}
 /* || Components */
 
 button {
